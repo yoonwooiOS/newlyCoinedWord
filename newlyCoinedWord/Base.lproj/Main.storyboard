@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Newly Coined Word View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="NewlyCoinedWordViewController" customModule="newlyCoinedWord" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CVt-JX-KWr">
+                                <rect key="frame" x="20" y="133" width="192" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlJ-if-3oE">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="윰차"/>
+                                        <connections>
+                                            <action selector="recommandButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Vi-bh-AIR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdx-Y7-T74">
+                                        <rect key="frame" x="38" y="0.0" width="46" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="recommandButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pu2-oY-vIC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0V-Ab-9by">
+                                        <rect key="frame" x="92" y="0.0" width="46" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="recommandButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4fG-st-wXN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFT-RN-x9U">
+                                        <rect key="frame" x="146" y="0.0" width="46" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="recommandButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y2I-6P-vX1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11R-DR-Pt3">
+                                <rect key="frame" x="272" y="79" width="70" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="39k-6P-qRT"/>
+                                    <constraint firstAttribute="height" constant="34" id="tkJ-0y-ofL"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="searchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FTU-Oh-Bcl"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3QS-m1-fUu">
+                                <rect key="frame" x="20" y="213" width="322" height="256"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vij-YM-EhP">
+                                <rect key="frame" x="10" y="79" width="262" height="34"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="VsX-OB-uG7"/>
+                                    <constraint firstAttribute="height" constant="34" id="Zyb-8h-DXj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="reuturnButtonTapped:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="z9t-MP-fIc"/>
+                                    <outletCollection property="gestureRecognizers" destination="op6-TX-vuH" appends="YES" id="aTZ-ok-rUN"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytl-UN-7al">
+                                <rect key="frame" x="30" y="331" width="302" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ytl-UN-7al" secondAttribute="trailing" constant="30" id="0Uo-6g-gS1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="11R-DR-Pt3" secondAttribute="trailing" constant="20" id="0x2-OH-mas"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vij-YM-EhP" secondAttribute="trailing" constant="90" id="6ab-ts-7Wd"/>
+                            <constraint firstItem="Vij-YM-EhP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="6u3-aE-zzk"/>
+                            <constraint firstItem="Vij-YM-EhP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="8qL-UQ-aB1"/>
+                            <constraint firstItem="ytl-UN-7al" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="EBj-yG-bKc"/>
+                            <constraint firstItem="CVt-JX-KWr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FcD-Py-H73"/>
+                            <constraint firstItem="CVt-JX-KWr" firstAttribute="top" secondItem="Vij-YM-EhP" secondAttribute="bottom" constant="20" id="Jrg-o5-M17"/>
+                            <constraint firstItem="ytl-UN-7al" firstAttribute="centerX" secondItem="3QS-m1-fUu" secondAttribute="centerX" id="Kv5-a9-12G"/>
+                            <constraint firstItem="11R-DR-Pt3" firstAttribute="bottom" secondItem="3QS-m1-fUu" secondAttribute="top" constant="-100" id="V8Y-g8-X7I"/>
+                            <constraint firstItem="11R-DR-Pt3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Z3N-4S-5DZ"/>
+                            <constraint firstItem="3QS-m1-fUu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZfU-jQ-63O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CVt-JX-KWr" secondAttribute="trailing" constant="150" id="bUz-4j-71g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3QS-m1-fUu" secondAttribute="bottom" constant="300" id="eyo-RD-baH"/>
+                            <constraint firstItem="3QS-m1-fUu" firstAttribute="top" secondItem="CVt-JX-KWr" secondAttribute="bottom" constant="50" id="foc-K0-ahU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3QS-m1-fUu" secondAttribute="trailing" constant="20" id="fqs-Og-aTH"/>
+                            <constraint firstItem="ytl-UN-7al" firstAttribute="centerY" secondItem="3QS-m1-fUu" secondAttribute="centerY" id="mAy-OT-bWY"/>
+                            <constraint firstItem="11R-DR-Pt3" firstAttribute="leading" secondItem="Vij-YM-EhP" secondAttribute="trailing" id="z6A-0K-lMR"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="16p-SR-0Kc" appends="YES" id="KSR-JZ-Vbs"/>
+                        </connections>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="4lj-W1-Yhh">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="GDA-D9-7ev"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="recommandButtonFirst" destination="PlJ-if-3oE" id="Mad-ch-seT"/>
+                        <outlet property="recommandButtonFourth" destination="vFT-RN-x9U" id="0e5-n3-uNU"/>
+                        <outlet property="recommandButtonSecond" destination="rdx-Y7-T74" id="hT4-GZ-cXA"/>
+                        <outlet property="recommandButtonThird" destination="D0V-Ab-9by" id="PvQ-1Z-d5A"/>
+                        <outlet property="resultImageView" destination="3QS-m1-fUu" id="Z8l-Zn-uKS"/>
+                        <outlet property="resultLabel" destination="ytl-UN-7al" id="vC7-7L-Y65"/>
+                        <outlet property="searchButton" destination="11R-DR-Pt3" id="rC3-w1-mpU"/>
+                        <outlet property="searchTextField" destination="Vij-YM-EhP" id="9lp-0w-kI0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="16p-SR-0Kc">
+                    <connections>
+                        <action selector="textFieldreturnButtonTapped:" destination="BYZ-38-t0r" id="hvx-oV-5J1"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="op6-TX-vuH">
+                    <connections>
+                        <action selector="textFieldreturnButtonTapped:" destination="BYZ-38-t0r" id="L4L-Fm-A8O"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1026.7175572519084" y="4.2253521126760569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
