@@ -58,6 +58,7 @@
 		99F75C1C2BF8740300275A04 /* newlyCoinedWord */ = {
 			isa = PBXGroup;
 			children = (
+				99F75C312BF8775100275A04 /* NewlyCoinedWordViewController.swift */,
 				99F75C1D2BF8740300275A04 /* AppDelegate.swift */,
 				99F75C1F2BF8740300275A04 /* SceneDelegate.swift */,
 				99F75C212BF8740300275A04 /* ViewController.swift */,
@@ -65,7 +66,6 @@
 				99F75C262BF8740400275A04 /* Assets.xcassets */,
 				99F75C282BF8740400275A04 /* LaunchScreen.storyboard */,
 				99F75C2B2BF8740400275A04 /* Info.plist */,
-				99F75C312BF8775100275A04 /* NewlyCoinedWordViewController.swift */,
 			);
 			path = newlyCoinedWord;
 			sourceTree = "<group>";
