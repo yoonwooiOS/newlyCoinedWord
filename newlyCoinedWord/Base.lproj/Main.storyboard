@@ -96,7 +96,7 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ytl-UN-7al" secondAttribute="trailing" constant="30" id="0Uo-6g-gS1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="11R-DR-Pt3" secondAttribute="trailing" constant="20" id="0x2-OH-mas"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vij-YM-EhP" secondAttribute="trailing" constant="90" id="6ab-ts-7Wd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="11R-DR-Pt3" secondAttribute="trailing" constant="20" id="6ab-ts-7Wd"/>
                             <constraint firstItem="Vij-YM-EhP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="6u3-aE-zzk"/>
                             <constraint firstItem="Vij-YM-EhP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="8qL-UQ-aB1"/>
                             <constraint firstItem="ytl-UN-7al" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="EBj-yG-bKc"/>
